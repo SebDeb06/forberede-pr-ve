@@ -49,3 +49,92 @@ table {
 }
 /*CSS RESET END*/
 /*Din kode UNDER dette!!*/
+
+.header{
+	height: 7.5vh;
+	width: 100vw;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.body{
+	height: 85vh;
+	width: 100vw;
+	background-color: darkblue;
+}
+
+.footer{
+	height: 7.5vh;
+	width: 100vw;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Header styling*/
+
+.header-wrapper{
+	width: 20vw;
+	height: 5vh;
+}
+
+.nav-wrapper{
+	width: 80vw;
+	height: 7.5vh;
+	background-color: red;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	gap: 1.5vw;
+}
+
+.header-button-style{
+	width: 9.5vw;
+	height: 5.25vh;
+	border-radius: 0.5rem;
+}
+
+.header-button-style:hover{
+	width: 9.5vw;
+	height: 5.5vh;
+	border-radius: 0.4rem;
+}
+
+/*Body styling*/
+
+.body{
+	height: 85vh;
+	width: 100vw;
+	display: flex;
+}
+
+.body-left{
+	height: 85vh;
+	width: 60vw;
+	background-color: gainsboro;
+}
+
+.body-left-top{
+	width: 60vw;
+	height: 42.5vh;
+	background-color: violet;
+}
+
+.body-left-bottom{
+	width: 60vw;
+	height: 42.5vh;
+	background-color: brown;
+}
+
+.body-right{
+	height: 85vh;
+	width: 40vw;
+	background-color: darkcyan;
+}
+
+
+/*Footer styling*/
+
